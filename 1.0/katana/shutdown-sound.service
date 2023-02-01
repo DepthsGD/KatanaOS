@@ -1,0 +1,15 @@
+[Unit]
+Description=Play sound on shutdown
+Requires=sound.target
+Wants=network.target
+DefaultDependencies=no
+Before=shutdown.target reboot.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStart=sleep 5s
+ExecStop=omxplayer -o both /etc/sound/poweroff.wav
+
+[Install]
+WantedBy=multi-user.target graphical.target

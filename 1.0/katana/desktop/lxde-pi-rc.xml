@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<openbox_config>
+  <theme>
+    <font place="ActiveWindow">
+      <name>PibotoLt</name>
+      <size>12</size>
+      <weight>Bold</weight>
+      <slant>Italic</slant>
+    </font>
+    <font place="InactiveWindow">
+      <name>PibotoLt</name>
+      <size>12</size>
+      <weight>Bold</weight>
+      <slant>Italic</slant>
+    </font>
+    <invHandleWidth>10</invHandleWidth>
+    <titleColor>#000000</titleColor>
+    <textColor>#ffffff</textColor>
+    <titleLayout>NSCLIM</titleLayout>
+    <font place="MenuHeader">
+      <name>PibotoLt</name>
+      <size>12</size>
+      <weight>Bold</weight>
+      <slant>Italic</slant>
+    </font>
+    <font place="MenuItem">
+      <name>PibotoLt</name>
+      <size>12</size>
+      <weight>Bold</weight>
+      <slant>Italic</slant>
+    </font>
+    <font place="ActiveOnScreenDisplay">
+      <name>PibotoLt</name>
+      <size>12</size>
+      <weight>Bold</weight>
+      <slant>Italic</slant>
+    </font>
+    <font place="InactiveOnScreenDisplay">
+      <name>PibotoLt</name>
+      <size>12</size>
+      <weight>Bold</weight>
+      <slant>Italic</slant>
+    </font>
+    <name>PiXflat</name>
+  </theme>
+</openbox_config>
