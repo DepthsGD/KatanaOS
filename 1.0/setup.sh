@@ -53,7 +53,7 @@ dialog --shadow --backtitle "KatanaOS 1.00rp, Installer v0.98 - Copyright 2018-2
 
 dialog --shadow --backtitle "KatanaOS 1.00rp, Installer v0.98 - Copyright 2018-2022 Katana Computer Inc.  All rights reserved." --ok-label "Continue" --title "No Product Code?" --msgbox "Please note that if you have not entered your Product ID Code in, you will not miss out on any features of KatanaOS. If you have entered a code in, you will be asked to confirm it at the end of the install process." 30 45
 
-dialog --shadow --backtitle "KatanaOS 1.00rp, Installer v0.98 - Copyright 2018-2022 Katana Computer Inc.  All rights reserved." --exit-label "Continue" --title "End User License Agreement (EULA)" --textbox "./gnu_gpl.txt" 30 45
+dialog --shadow --backtitle "KatanaOS 1.00rp, Installer v0.98 - Copyright 2018-2022 Katana Computer Inc.  All rights reserved." --exit-label "Continue" --title "End User License Agreement (EULA)" --textbox "./license.txt" 30 45
 
 dialog --shadow --backtitle "KatanaOS 1.00rp, Installer v0.98 - Copyright 2018-2022 Katana Computer Inc.  All rights reserved." --ok-label "Continue" --title "Ready to Install" --msgbox "If you are ready to install KatanaOS, pess Return. If not, press Ctrl-C. N.B: this will make a SOUND folder in /etc and a KATANA folder in /usr/share/rpd-wallpaper." 30 45
 
